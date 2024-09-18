@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #f0f, #0ff, #ff0); /* Cores pastel rosa, azul e verde */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1; /* Ocupa todo o espaço disponível verticalmente */
+}
+
+.btn-newjeans {
+    background-color: #fff;
+    color: #333;
+    padding: 15px 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #eee;
+}
+body {
+    background-image: url("images/meninas super.jpg");
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o fundo */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+  }
+  
+  footer {
+    background-color: #f0f0f0; /* Cor pastel rosa */
+    color: #800080; /* Cor pastel roxa */
+  }
+  .notice {
+    /* Estilos básicos para o aviso */
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    animation: fadeOut 3s ease-in-out 1s forwards; /* Animação de fade out */
+  }
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  

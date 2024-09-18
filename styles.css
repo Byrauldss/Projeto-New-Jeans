@@ -1,0 +1,233 @@
+body {
+    background: #fff5f3 url(../images/fundo.png) repeat-x;
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+#container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+a:link, a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#logo h1 {
+    float: left;
+}
+#logo a {
+    width: 250px;
+    height: 150px;
+    text-indent: -9999px;
+    display: block;
+    background: url(../images/Bunnies.png) no-repeat center center;
+    background-size: cover;
+}
+
+header {
+    padding: 15px 0;
+    height: 55px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    float: right;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    margin-right: 25px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid #e1d3dd;
+}
+/* principal */
+
+#conteudo {
+    width: 710px;
+    float: left;
+    background: #fff5f3;
+}
+
+aside {
+    width: 350px;
+    float: right;
+    background: #fff5f3;
+
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+     align-items: center
+
+}
+
+#capa img{
+    max-width: 100%
+
+}
+
+#carousel{
+    width: 400px; /* Ajuste o tamanho conforme necessário */
+    overflow: hidden;
+  }
+  
+  .slide {
+    width: 100%;
+    float: left;
+  }
+  
+  .slide img {
+    width: 100%;
+  }
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #eee;
+}
+  
+  footer {
+    background-color: #f0f0f0; /* Cor pastel rosa */
+    color: #800080; /* Cor pastel roxa */
+  }
+  .notice {
+    /* Estilos básicos para o aviso */
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    animation: fadeOut 3s ease-in-out 1s forwards; /* Animação de fade out */
+  }
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+  }
+  footer {
+    background-color: #6fb7f4;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .video-thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.thumbnail {
+    background-color: #A9CDE8; /* Cor de fundo das miniaturas */
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px; /* Ajuste a largura conforme necessário */
+    position: relative; /* Para posicionar o botão de play */
+}
+
+.thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.thumbnail button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.NJ-integrantes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.integrantes {
+  width: 200px;
+  margin: 5px; /* Reduce the margin to bring thumbnails closer */
+  text-align: center;
+  background-color: #ffd1ec;
+  color: #000000;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.integrantes img {
+  width: 100%;
+  border-radius: 10px;
+}
+ 
+.style>
+    /* Add styles for responsive layout and image positioning */
+    #header {
+      display: flex; /* Allow horizontal layout */
+      justify-content: space-between; /* Distribute content evenly */
+      align-items: center; /* Align content vertically */
+    }
+
+    #logo {
+      flex: 0 0 auto; /* Make logo flexible but not expandable */
+    }
+
+    #social-icons {
+      display: flex;
+      flex-direction: row; /* Icons displayed horizontally */
+      margin-left: auto; /* Align icons to the right */
+    }
+
+    .social-icon {
+      margin-left: 10px; /* Spacing between social icons */
+    }
+
+    #capa img {
+      max-width: 100%; /* Ensure image scales responsively */
+      display: block; /* Image fills container width */
+    }
+
+    #carousel {
+      width: 50%; /* Adjust carousel width if needed */
+      margin: 0 auto; /* Center carousel horizontally */
+    }
+  
